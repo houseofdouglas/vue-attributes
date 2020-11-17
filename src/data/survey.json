@@ -1,0 +1,106 @@
+{
+    "attributes": [
+        {
+            "name": "Faith",
+            "survey": [
+                "I believe in Christ and accept Him as my Savior.",
+                "I feel confident that God loves me.",
+                "I trust the Savior enough to accept His will and do whatever He asks.",
+                "I firmly believe that through the Atonement of Jesus Christ I can be forgiven of all my sins.",
+                "I have enough faith in Christ to obtain answers to my prayers.",
+                "I think about the Savior during the day and remember what He has done for me.",
+                "I have the faith necessary to help make good things happen in my life or the lives of others.",
+                "I know by the power of the Holy Ghost that the Book of Mormon is true.",
+                "I have enough faith in Christ to accomplish anything He wants me to do—even miracles, if necessary."
+            ]
+        },
+        {
+            "name": "Hope",
+            "survey": [
+                "One of my greatest desires is to inherit eternal life in the celestial kingdom of God.",
+                "I am confident that I will have a happy and successful mission.",
+                "I feel peaceful and optimistic about the future.",
+                "I firmly believe that someday I will dwell with God and become like Him."
+            ]
+        },
+        {
+            "name": "Charity and Love",
+            "survey": [
+                "I feel a sincere desire for the eternal welfare and happiness of other people.",
+                "When I pray, I ask for charity—the pure love of Christ.",
+                "I try to understand others’ feelings and see their point of view.",
+                "I forgive others who have offended or wronged me.",
+                "I try to help others when they are struggling or discouraged.",
+                "When appropriate, I tell others that I love them and care about them.",
+                "I look for opportunities to serve other people.",
+                "I say positive things about others.",
+                "I am kind and patient with others, even when they are hard to get along with.",
+                "I find joy in others’ achievements."
+            ]
+        },
+        {
+            "name": "Virtue",
+            "survey": [
+                "I am clean and pure in heart.",
+                "I have no desire to do evil but to do good.",
+                "I am dependable—I do what I say I will do.",
+                "I focus on righteous, uplifting thoughts and put unwholesome thoughts out of my mind.",
+                "I repent of my sins and strive to overcome my weaknesses.",
+                "I feel the influence of the Holy Ghost in my life."
+            ]
+        },
+        {
+            "name": "Knowledge",
+            "survey": [
+                "I feel confident in my understanding of gospel doctrine and principles.",
+                "I study the scriptures daily.",
+                "I earnestly seek to understand the truth and find answers to my questions.",
+                "I receive knowledge and guidance through the Spirit.",
+                "I love and cherish the doctrine and principles of the gospel."
+            ]
+        },
+        {
+            "name": "Patience",
+            "survey": [
+                "I wait patiently for the blessings and promises of the Lord to be fulfilled.",
+                "I am able to wait for things without getting upset or frustrated.",
+                "I am patient and long-suffering with the challenges of being a missionary.",
+                "I am patient with the faults and weaknesses of others.",
+                "I am patient with myself and rely on the Lord as I work to overcome my weaknesses.",
+                "I face adversity and afflictions calmly and hopefully."
+            ]
+        },
+        {
+            "name": "Humility",
+            "survey": [
+                "I am meek and lowly in heart.",
+                "I rely on the Lord for help.",
+                "I am sincerely grateful for the blessings I have received from the Lord.",
+                "My prayers are earnest and sincere.",
+                "I appreciate direction from my leaders or teachers.",
+                "I strive to be submissive to the Lord’s will, whatever it may be."
+            ]
+        },
+        {
+            "name": "Diligence",
+            "survey": [
+                "I work effectively, even when I’m not under pressure or close supervision.",
+                "I focus my efforts on the most important things.",
+                "I have a personal prayer at least twice a day.",
+                "I focus my thoughts on my calling as a missionary.",
+                "I set goals and plan regularly.",
+                "I work hard until the job is completed successfully.",
+                "I find joy and satisfaction in my work."
+            ]
+        },
+        {
+            "name": "Obedience",
+            "survey": [
+                "When I pray, I ask for strength to resist temptation and to do what is right.",
+                "I keep the required commandments to be worthy of a temple recommend.",
+                "I willingly obey the mission rules and follow the counsel of my leaders.",
+                "I strive to live in accordance with the laws and principles of the gospel."
+            ]
+        }        
+    ]
+}
