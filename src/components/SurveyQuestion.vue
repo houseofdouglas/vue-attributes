@@ -21,7 +21,7 @@
           <button
             type="button"
             class="btn"
-            :class="[survey[0] ? selected : notSelected]"
+            :class="[answer[0] ? selected : notSelected]"
             @click="saveAssessment(1)"
           >
             1
@@ -29,7 +29,7 @@
           <button
             type="button"
             class="btn"
-            :class="[survey[1] ? selected : notSelected]"
+            :class="[answer[1] ? selected : notSelected]"
             @click="saveAssessment(2)"
           >
             2
@@ -37,7 +37,7 @@
           <button
             type="button"
             class="btn"
-            :class="[survey[2] ? selected : notSelected]"
+            :class="[answer[2] ? selected : notSelected]"
             @click="saveAssessment(3)"
           >
             3
@@ -45,7 +45,7 @@
           <button
             type="button"
             class="btn"
-            :class="[survey[3] ? selected : notSelected]"
+            :class="[answer[3] ? selected : notSelected]"
             @click="saveAssessment(4)"
           >
             4
@@ -53,7 +53,7 @@
           <button
             type="button"
             class="btn"
-            :class="[survey[4] ? selected : notSelected]"
+            :class="[answer[4] ? selected : notSelected]"
             @click="saveAssessment(5)"
           >
             5
@@ -70,7 +70,7 @@ export default {
   data() {
     return {
       fillMask: [1, 1, 1, 1, 1],
-      survey: [],
+      answer: [],
       selected: "btn-success",
       notSelected: "btn-secondary",
     };
@@ -87,11 +87,11 @@ export default {
   },
   methods: {
     saveAssessment: function (selfAssessment) {
-      this.survey =
+      this.answer =
         selfAssessment == 5
           ? Array.from(this.fillMask)
           : Array.from(this.fillMask).fill(0, selfAssessment);
-      this.$emit('increment-response', this.attribute + '_' + selfAssessment);
+      this.$emit('increment-response', this.attributeKey + '_' + selfAssessment);
     },
   },
 };
