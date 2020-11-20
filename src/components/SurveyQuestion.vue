@@ -2,11 +2,14 @@
   <div class="container">   
     <div class="row">
       <div class="col-8 ml-2 mt-1">
-        {{ question }}
-          <b-icon icon="book" :id="attribute"></b-icon>
-          <b-popover :target="attribute" triggers="hover" placement="top">
-            <template #title>Popover Title</template>
-            I am popover <b>component</b> content!
+        {{ survey.question }}
+          <b-icon icon="book" :id="attributeKey"></b-icon>
+          <b-popover :target="attributeKey" triggers="hover" placement="right">
+            <template #title>{{survey.scriptureHeader}}</template>
+            <p
+              v-for="scripture in survey.scripture"
+              :key="scripture.verse"
+            ><b>{{ scripture.verse }}</b> {{ scripture.text }}</p>
           </b-popover>          
       </div>
       <div class="col">
@@ -73,11 +76,11 @@ export default {
     };
   },
   props: {
-    question: {
-      type: String,
+    survey: {
+      type: Object,
       required: true,
     },
-    attribute: {
+    attributeKey: {
       type: String,
       required: true,
     }

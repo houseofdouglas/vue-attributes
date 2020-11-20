@@ -11,8 +11,8 @@
       <survey-question
         v-for="(survey, index) in attribute.survey"
         v-bind:key="index"
-        v-bind:attribute="attribute.name + '_' + index"
-        v-bind:question="survey.question"
+        v-bind:attributeKey="attribute.name + '_' + index"
+        v-bind:survey="survey"
         v-on:increment-response="incrementResponse"
       ></survey-question>
     </div>
