@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <div>1=never 5= always</div>
+    <div class="h5">1=never  2=sometimes  3=often  4=almost always  5=always</div>
     <attribute
       v-for="attribute in attributes"
       :key="attribute.name"

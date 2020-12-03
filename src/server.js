@@ -7,7 +7,7 @@ const OktaJwtVerifier = require('@okta/jwt-verifier')
 
 const oktaJwtVerifier = new OktaJwtVerifier({
   clientId: '0oafcvizvKFVNygLX5d5',
-  issuer: 'https://dev-1042934.okta.com/oauth2/default'
+  issuer: 'https://login.thehouseofdouglas.com/oauth2/default'
 })
 
 let app = express()

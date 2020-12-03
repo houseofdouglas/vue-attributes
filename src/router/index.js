@@ -1,12 +1,11 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import Hello from '@/components/Hello'
-import PostsManager from '@/components/PostsManager'
 import AttributesSurvey from '@/components/AttributesSurvey'
 import Auth from '@okta/okta-vue'
 
 Vue.use(Auth, {
-  issuer: 'https://dev-1042934.okta.com/oauth2/default',
+  issuer: 'https://login.thehouseofdouglas.com/oauth2/default',
   client_id: '0oafcvizvKFVNygLX5d5',
   redirect_uri: 'http://localhost:8080/implicit/callback',
   scope: 'openid profile email'
@@ -27,19 +26,11 @@ let router = new Router({
       component: Auth.handleCallback()
     },
     {
-      path: '/posts-manager',
-      name: 'PostsManager',
-      component: PostsManager,
-      meta: {
-        requiresAuth: true
-      }
-    },
-    {
       path: '/attributes-survey',
       name: 'AttributesSurvey',
       component: AttributesSurvey,
       meta: {
-        requiresAuth: false
+        requiresAuth: true  
       }
     }
   ]
